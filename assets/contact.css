@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}  
+.navbar-brand img{
+    height: 60px;
+    width: auto;
+}
+nav {
+    background-color: rgb(11, 11, 11);
+}
+.nav-item {
+    transition: .20s;
+}
+.nav-item:hover {
+    transform: scale(1.1);
+}
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+
